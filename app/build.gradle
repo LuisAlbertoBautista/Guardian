@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.pruebantt'
+    namespace 'com.unca.guardian'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.example.pruebantt"
+        applicationId "com.unca.guardian"
         minSdk 24
         targetSdk 33
         versionCode 1

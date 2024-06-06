@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "PruebaNTT"
+rootProject.name = "Guardian"
 include ':app'
