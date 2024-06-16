@@ -16,11 +16,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PruebaNTT"
         tools:targetApi="31">
-
-        <activity android:name="com.unca.guardian.ui.user_victima.MainActivity"
+        <activity
+            android:name=".ui.user_voluntario.FormularioVoluntario"
+            android:exported="false" />
+        <activity
+            android:name=".ui.user_victima.Victima"
+            android:exported="false" />
+        <activity
+            android:name=".ui.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
