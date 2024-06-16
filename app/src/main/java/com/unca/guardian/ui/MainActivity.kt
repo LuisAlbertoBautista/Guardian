@@ -21,9 +21,8 @@ class MainActivity : AppCompatActivity() {
         vm = ViewModelProvider(this).get(UserVictimaViewModel::class.java)
         owner=this
 
-        binding.btnLoadNewUser.setOnClickListener(){
-            getData()
-        }
+        getData()
+
     }
 
     fun getData(){
